@@ -101,6 +101,7 @@ party##div.pf_wrap
 quasarzone.com##.market-info-list:has-text(/블라인드/)
 quasarzone.com##.mb_alert_box_wrap
 quasarzone.com##.redirect-link-container
+quasarzone.com##div.new-partner-saleinfo-horizontal-wrapper
 speedtest.net###onetrust-consent-sdk
 sports.naver.com###footer
 sports.naver.com##.CreatorVideo_comp_creator_video__2D8BP.main_group
