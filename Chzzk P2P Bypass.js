@@ -1,11 +1,19 @@
 // ==UserScript==
+
 // @name         Chzzk P2P Bypass
+
 // @version      2025-09-11
+
+// @author       cyberpsycho
+
 // @match        https://chzzk.naver.com/*
+
 // @match        https://*.chzzk.naver.com/*
-// @icon         https://chzzk.naver.com/favicon.ico
+
 // @grant        none
+
 // @require      https://unpkg.com/xhook@latest/dist/xhook.min.js
+
 // ==/UserScript==
 
 
@@ -21,7 +29,7 @@
 
 
     xhook.after(function (req, res) {
-        ß
+
         if (req.url.includes("live-detail")) {
 
             try {
