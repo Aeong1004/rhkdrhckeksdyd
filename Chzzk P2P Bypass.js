@@ -3,6 +3,7 @@
 // @version      2025-09-11
 // @match        https://chzzk.naver.com/*
 // @match        https://*.chzzk.naver.com/*
+// @icon         https://chzzk.naver.com/favicon.ico
 // @grant        none
 // @require      https://unpkg.com/xhook@latest/dist/xhook.min.js
 // ==/UserScript==
