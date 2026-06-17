@@ -1,5 +1,5 @@
 ! Title: 커스텀 필터
-! Version: 2026.05.10.21.08
+! Version: 2026.06.17.18.33.
 
 cafe.naver.com###MyCafeGateSink
 cafe.naver.com###articleFeedList
@@ -26,6 +26,7 @@ cafe.naver.com##.write
 cafe.naver.com##div.HomeFeedItem
 cafe.naver.com##div.tip_alarm
 cafe.naver.com##li:has-text(/판매/)
+cafe.naver.com##li:has-text(/예약중/)
 cafe.naver.com##li:has-text(/차단한 멤버의 게시글입니다./)
 
 inven.co.kr###invenAppSuggestion
