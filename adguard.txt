@@ -1,5 +1,5 @@
 ! Title: 커스텀 필터
-! Version: 2026.07.12.
+! Version: 2026.08.05.
 
 cafe.naver.com###MyCafeGateSink
 cafe.naver.com###articleFeedList
@@ -8,6 +8,7 @@ cafe.naver.com##.ArticleFormArea
 cafe.naver.com##.CafeAppBanner
 cafe.naver.com##.ChzzkConnectionNoticeLayer
 cafe.naver.com##.FloatingWriteButton
+cafe.naver.com##.ListItem:has([data-nlog-params*="\"menu_id\":385"])
 cafe.naver.com##.NoticeArea
 cafe.naver.com##.RisingArticleList
 cafe.naver.com##.additional_area
