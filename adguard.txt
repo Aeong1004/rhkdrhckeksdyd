@@ -1,5 +1,5 @@
 ! Title: 커스텀 필터
-! Version: 2026.08.06.
+! Version: 2026.08.06.v2
 
 cafe.naver.com###MyCafeGateSink
 cafe.naver.com###articleFeedList
@@ -8,7 +8,6 @@ cafe.naver.com##.ArticleFormArea
 cafe.naver.com##.CafeAppBanner
 cafe.naver.com##.ChzzkConnectionNoticeLayer
 cafe.naver.com##.FloatingWriteButton
-cafe.naver.com##.ListItem:has([data-nlog-params*="\"menu_id\":385"])
 cafe.naver.com##.NoticeArea
 cafe.naver.com##.RisingArticleList
 cafe.naver.com##.additional_area
@@ -26,14 +25,15 @@ cafe.naver.com##.typo_label-smallStrong.radius_xxxLarge.btn_app
 cafe.naver.com##.write
 cafe.naver.com##div.HomeFeedItem
 cafe.naver.com##div.tip_alarm
-cafe.naver.com##li:has-text(/판매/)
-cafe.naver.com##li:has-text(/예약중/)
-cafe.naver.com##li:has-text(/게시판정책/)
-cafe.naver.com##li:has-text(/제목특문/)
-cafe.naver.com##li:has-text(/시세질문글/)
-cafe.naver.com##li:has-text(/질게외/)
-cafe.naver.com##li:has-text(/홍보성리뷰/)
-cafe.naver.com##li:has-text(/차단한 멤버의 게시글입니다./)
+!cafe.naver.com##li:has-text(/판매/)
+!cafe.naver.com##li:has-text(/예약중/)
+!cafe.naver.com##li:has-text(/게시판정책/)
+!cafe.naver.com##li:has-text(/제목특문/)
+!cafe.naver.com##li:has-text(/시세질문글/)
+!cafe.naver.com##li:has-text(/질게외/)
+!cafe.naver.com##li:has-text(/홍보성리뷰/)
+!cafe.naver.com##li:has-text(/차단한 멤버의 게시글입니다./)
+cafe.naver.com##:matches-path(/ca-fe/appleiphone) .ListItem:has([data-nlog-params*="\"menu_id\":"]:matches-attr(data-nlog-params="/\"menu_id\":(35|82|54|385|406|416)[,}]+/"))
 
 inven.co.kr###invenAppSuggestion
 inven.co.kr###mo-notice
