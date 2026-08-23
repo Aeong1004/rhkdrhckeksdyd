@@ -1,5 +1,5 @@
 ! Title: 커스텀 필터
-! Version: 2026.08.13.v2
+! Version: 2026.08.23.
 
 cafe.naver.com###MyCafeGateSink
 cafe.naver.com###articleFeedList
@@ -33,7 +33,7 @@ cafe.naver.com##div.tip_alarm
 !cafe.naver.com##li:has-text(/질게외/)
 !cafe.naver.com##li:has-text(/홍보성리뷰/)
 !cafe.naver.com##li:has-text(/차단한 멤버의 게시글입니다./)
-cafe.naver.com##body:has(a[href*="appleiphone"]) .ListItem:has([data-nlog-params*="\"menu_id\":35,"], [data-nlog-params*="\"menu_id\":35}"], [data-nlog-params*="\"menu_id\":54,"], [data-nlog-params*="\"menu_id\":54}"], [data-nlog-params*="\"menu_id\":67,"], [data-nlog-params*="\"menu_id\":67}"], [data-nlog-params*="\"menu_id\":82,"], [data-nlog-params*="\"menu_id\":82}"], [data-nlog-params*="\"menu_id\":385,"], [data-nlog-params*="\"menu_id\":385}"], [data-nlog-params*="\"menu_id\":406,"], [data-nlog-params*="\"menu_id\":406}"], [data-nlog-params*="\"menu_id\":416,"], [data-nlog-params*="\"menu_id\":416}"], [data-nlog-params*="\"menu_id\":774,"], [data-nlog-params*="\"menu_id\":774}"])
+cafe.naver.com##body:has(a[href*="appleiphone"]) .ListItem:has([data-nlog-params*="\"menu_id\":35,"], [data-nlog-params*="\"menu_id\":35}"], [data-nlog-params*="\"menu_id\":54,"], [data-nlog-params*="\"menu_id\":54}"], [data-nlog-params*="\"menu_id\":67,"], [data-nlog-params*="\"menu_id\":67}"], [data-nlog-params*="\"menu_id\":82,"], [data-nlog-params*="\"menu_id\":82}"], [data-nlog-params*="\"menu_id\":179,"], [data-nlog-params*="\"menu_id\":179}"], [data-nlog-params*="\"menu_id\":385,"], [data-nlog-params*="\"menu_id\":385}"], [data-nlog-params*="\"menu_id\":406,"], [data-nlog-params*="\"menu_id\":406}"], [data-nlog-params*="\"menu_id\":416,"], [data-nlog-params*="\"menu_id\":416}"], [data-nlog-params*="\"menu_id\":774,"], [data-nlog-params*="\"menu_id\":774}"])
 
 inven.co.kr###invenAppSuggestion
 inven.co.kr###mo-notice
